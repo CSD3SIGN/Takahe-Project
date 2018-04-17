@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
+body{ 
+    padding: 5%;
+    background-image: url(../images/background1.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+}
+
+article {
+    font-family: 'Domine';
+    font-size: 2vw;
+    line-height: 1.5;
+    margin-bottom: 20%;
+    padding: 10%;
+    color: #ddd;
+    background-color: rgba(0,0,0,.8);
+}
+
+p, li {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.dropcap {
+    font-size: 500%;
+    line-height: .88;
+    float: left;
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 10vw;
+    font-weight: bold;
+    line-height: .8;
+    width: 70%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: white;
+    text-shadow: 0 0 2vw black;
+}
+
+h1 span {
+    font-size: 3vw;
+    position: relative;
+    top: 1em;
+    display: block;
+    color: yellow;
+    text-shadow: none;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 3vw;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: .3em;
+    color: goldenrod;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 0.9;
+
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+    color: white;
+    text-shadow: 0 0 2vw black;
+}
+
+a {
+    color: tomato;
+}
+
+.italic {
+    font-style: italic;
+    color: yellow;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.footer {
+    font-style: italic;
+    font-size: 1vw;
+}
+
+div.takahe-table {
+  overflow-x: auto;
+}
+
+table.takahe {
+  color: #58595B;
+  width: 70vw;
+  margin: auto;
+  font-size: 1em;
+
+}
+
+th#takahe {
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+tr#takahe:hover {
+  background-color: rgb(89, 89, 89, 0.5)
+}
+
+td#takahe {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
