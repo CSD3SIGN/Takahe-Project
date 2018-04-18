@@ -1,16 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Domine');
 
 body{ 
-    padding: 5%;
+margin: 0;
+    padding:0;
+}
+
+.background1{ 
     background-image: url(../images/background1.jpg);
     background-attachment: fixed;
     background-position: top center;
     background-size: cover;
+    padding: 5%;
+}
+
+.background2{ 
+    background-image: url(../images/background2.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    padding: 5%;
+}
+
+.background3 {
+    background-image: url(../images/background3);
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    padding: 5%;
+}
+
+.background4{ 
+    background-image: url(../images/background4.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    padding: 5%;
 }
 
 article {
     font-family: 'Domine';
-    font-size: 2vw;
+    font-size: 1.7vw;
     line-height: 1.5;
     margin-bottom: 20%;
     padding: 10%;
@@ -101,8 +130,8 @@ div.takahe-table {
 }
 
 table.takahe {
-  color: #58595B;
-  width: 70vw;
+  color: #888A8D;
+  width: 60vw;
   margin: auto;
   font-size: 1em;
 
@@ -112,6 +141,7 @@ th#takahe {
   text-align: left;
   padding-top: 15px;
   padding-bottom: 15px;
+  color: #D9CC2D;
 }
 
 tr#takahe:hover {
@@ -122,4 +152,51 @@ td#takahe {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 20px;
+}
+
+/* IMG */
+
+img {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.img {
+    height: 350px;
+}
+
+.img2 {
+    height: 400px;
+}
+
+.img3 {
+    height: 650px;
+}
+
+.left {
+    float:left;
+    margin-right: 2em;
+}
+
+.right {
+    float:right;
+}
+
+.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MAP */
+
+div.map{
+  text-align: center;
+}
+
+iframe.map {
+  width: 80%;
+  height: 600px;
 }
