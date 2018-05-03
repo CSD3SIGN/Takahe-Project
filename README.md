@@ -6,7 +6,7 @@
 
 ## STYLE TILE
 
-[Style Tile]()
+[Style Tile](https://github.com/CSD3SIGN/Takahe-Project/blob/master/Style%20Tile%20.png)
 
 ## HTML
 
